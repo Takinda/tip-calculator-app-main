@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: hsl(172, 67%, 45%);
+  --color-dark: hsl(183, 100%, 15%);
+  --color-grayish: hsl(186, 14%, 43%);
+  --color-light-grayish: hsl(184, 14%, 56%);
+  --color-very-light-grayish: hsl(185, 41%, 84%);
+  --color-white-grayish: hsl(189, 47%, 97%);
+  --color-white: hsl(0, 100%, 100%);
+
+  --font-family-primary: "Space Mono", monospace;
+}
+*{
+    font-family: var(--font-family-primary);
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
